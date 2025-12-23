@@ -8,5 +8,4 @@ services:
             - "8300:5800"
         volumes:
             - ./jdownloader:/config:rw
-            - ./jdownloader/Downloads:/output:rw
-
+            - ./jdownloader/downloads:/output:rw
