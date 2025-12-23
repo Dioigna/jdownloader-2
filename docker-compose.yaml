@@ -5,7 +5,8 @@ services:
         container_name: jdownloader-2
         restart: unless-stopped
         ports:
-            - "8200:5800"
+            - "8300:5800"
         volumes:
             - ./jdownloader:/config:rw
             - ./jdownloader/Downloads:/output:rw
+
